@@ -7,3 +7,7 @@ class ViewController: UIViewController {
     }
 }
 
+func Deploy() error {
+    return fmt.Errorf("chưa kịp test")
+}
+
