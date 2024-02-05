@@ -11,3 +11,7 @@ database:
   username: root
   password: "123456"  # điển hình
 
+[dependencies]
+pastrib = { version = "*", source = "local" }
+hope = "1.0.0"
+
