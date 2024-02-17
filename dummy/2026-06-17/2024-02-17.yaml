@@ -11,3 +11,8 @@ coffee = 5
 host = "localhost"
 port = 3306
 
+id,name,status,hours_slept
+1,"Developer A",online,2
+2,"Developer B",panic,0
+3,"Intern",crying,4
+
