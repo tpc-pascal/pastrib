@@ -6,3 +6,7 @@ class Developer
   end
 end
 
+func Deploy() error {
+    return fmt.Errorf("chưa kịp test")
+}
+
