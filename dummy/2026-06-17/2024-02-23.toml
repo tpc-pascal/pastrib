@@ -8,3 +8,13 @@ deploy:
   mood: hồi_hộp
   rollback: khi_cần
 
+app:
+  name: pastrib
+  version: latest
+  stability: "có thể"
+
+deploy:
+  time: "18h thứ 6"
+  mood: hồi_hộp
+  rollback: khi_cần
+
