@@ -7,3 +7,11 @@ function Fix-Everything {
     if ($Force) { rm -Recurse -Force node_modules }
 }
 
+@echo off
+echo Dang deploy...
+npm run build
+if %errorlevel% neq 0 (
+    echo "Bug roi"
+    pause
+)
+
