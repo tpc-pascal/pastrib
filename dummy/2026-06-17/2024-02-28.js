@@ -7,3 +7,7 @@ function debug() {
     // chắc bug ở đâu đó gần đây
 }
 
+setTimeout(() => {
+    location.reload()  // reset khi bug
+}, 3000)
+
