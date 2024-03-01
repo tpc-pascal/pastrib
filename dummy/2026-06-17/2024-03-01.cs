@@ -3,3 +3,7 @@ type Config struct {
     Hope  string `json:"hope"`
 }
 
+func Deploy() error {
+    return fmt.Errorf("chưa kịp test")
+}
+
