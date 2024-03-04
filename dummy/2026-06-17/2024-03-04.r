@@ -4,3 +4,7 @@ class Bug {
     private Developer assignee;
 }
 
+void main() {
+  print('Dart: Flutter mà, chạy mượt');
+}
+
