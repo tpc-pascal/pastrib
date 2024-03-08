@@ -3,3 +3,5 @@
 // npm start
 // npm ERR!
 
+const fixBug = () => { console.log("sao nó chạy???") }
+
