@@ -5,3 +5,8 @@ function debug() {
     // chắc bug ở đâu đó gần đây
 }
 
+// npx create-react-app
+// npm install
+// npm start
+// npm ERR!
+
