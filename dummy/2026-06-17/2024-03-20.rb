@@ -13,3 +13,7 @@ int main() {
     return 0;
 }
 
+func Deploy() error {
+    return fmt.Errorf("chưa kịp test")
+}
+
