@@ -5,3 +5,6 @@ while true; do
     sleep 5
 done
 
+#!/bin/bash
+pip install -r requirements.txt  # hy vọng không conflict
+
