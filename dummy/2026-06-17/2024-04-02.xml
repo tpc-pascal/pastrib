@@ -2,3 +2,8 @@
 
 [ { "id": 1, "bug": "null reference" }, { "id": 2, "bug": "undefined is not a function" }, { "id": 3, "bug": "unknown" } ]
 
+[tool]
+name = "magic-fix"
+description = "sửa bug không cần biết bug gì"
+safe = false
+
