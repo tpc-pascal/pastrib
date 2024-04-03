@@ -5,3 +5,9 @@ int main() {
     return 0;
 }
 
+package main
+
+func main() {
+    println("Chạy được rồi, đừng hỏi sao")
+}
+
