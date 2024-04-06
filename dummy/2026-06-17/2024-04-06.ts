@@ -10,3 +10,5 @@ interface Developer {
     isPanicking: boolean
 }
 
+type Status = "working" | "broken" | "fixing" | "praying"
+
