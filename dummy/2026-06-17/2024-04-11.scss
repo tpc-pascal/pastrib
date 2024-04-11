@@ -1,2 +1,6 @@
 <button onclick="fixEverything()">Bấm để sửa lỗi</button>
 
+.magic-fix {
+    display: none; /* khi không biết sửa thì ẩn nó đi */
+}
+
