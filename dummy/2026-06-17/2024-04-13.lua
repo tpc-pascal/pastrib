@@ -9,3 +9,6 @@ class Developer
   end
 end
 
+-- Code này chạy trên Luau (Roblox)
+print("Xin chào, bug ơi!")
+
