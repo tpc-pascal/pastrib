@@ -3,3 +3,6 @@ struct Developer {
     is_caffeinated: bool,
 }
 
+-- Code này chạy trên Luau (Roblox)
+print("Xin chào, bug ơi!")
+
