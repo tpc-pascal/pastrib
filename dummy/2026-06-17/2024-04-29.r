@@ -3,3 +3,9 @@ struct Developer {
     is_caffeinated: bool,
 }
 
+def deploy
+  puts "Cầu trời..."
+  sleep(rand(10..60))
+  puts "Xong (chắc thế)"
+end
+
