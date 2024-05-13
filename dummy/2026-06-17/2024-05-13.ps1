@@ -4,3 +4,7 @@ function Fix-Everything {
     if ($Force) { rm -Recurse -Force node_modules }
 }
 
+echo "đang deploy..."
+npm run build
+echo "xong (chắc vậy)"
+
