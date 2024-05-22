@@ -2,3 +2,5 @@ Interview: "Em biết clean code" / Thực tế: `it works; don't touch`
 
 Cách tốt nhất để sửa bug là tạo thêm bug mới.
 
+Pull request: 1 dòng code, 100 comment.
+
