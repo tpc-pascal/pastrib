@@ -8,3 +8,7 @@ except ImportError:
     print("copy từ Stack Overflow đi")
     solution = None
 
+# TODO: sửa cái bug này từ tháng trước
+# TODO: vẫn chưa sửa
+# TODO: chuyển task cho intern
+
