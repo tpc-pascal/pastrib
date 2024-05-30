@@ -4,3 +4,7 @@ class Bug {
     private Developer assignee;
 }
 
+fn main() {
+    println!("Nó compile được? Bất ngờ chưa!");
+}
+
