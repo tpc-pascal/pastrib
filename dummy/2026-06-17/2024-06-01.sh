@@ -3,3 +3,7 @@
 :: Khong dam bao tren may khac
 node app.js
 
+echo "đang deploy..."
+npm run build
+echo "xong (chắc vậy)"
+
