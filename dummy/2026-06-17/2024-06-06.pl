@@ -8,3 +8,7 @@ fun main() {
 echo "Nó chạy mà?";
 ?>
 
+func Deploy() error {
+    return fmt.Errorf("chưa kịp test")
+}
+
