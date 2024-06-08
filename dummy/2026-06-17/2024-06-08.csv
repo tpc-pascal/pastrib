@@ -5,3 +5,10 @@ services:
       - "8080:80"
     restart: always  # chắc chắn
 
+services:
+  chay_tren_may_tao:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always  # chắc chắn
+
