@@ -6,3 +6,7 @@ git add .
 git commit -m "cầu may"
 git push --force
 
+Write-Host "Đang deploy..." -ForegroundColor Yellow
+npm run build
+if ($?) { Write-Host "Xong!" } else { Write-Host "Thôi chết" -ForegroundColor Red }
+
