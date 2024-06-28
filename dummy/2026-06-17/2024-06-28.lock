@@ -20,3 +20,8 @@ pastrib==1.0.0
 hope==latest
 coffee==5.0.0
 
+DATABASE_URL=mysql://root:123456@localhost:3306/mydb
+SECRET_KEY=secret123  # đổi sau (từ 2 năm trước)
+DEBUG=true
+API_KEY=sk-xxxxxxxxxxxxxxxxxxxxx
+
