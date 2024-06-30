@@ -4,3 +4,5 @@
   <rollback>none</rollback>
 </config>
 
+{ "config": { "debug": true, "strict": false, "hope": "always" } }
+
