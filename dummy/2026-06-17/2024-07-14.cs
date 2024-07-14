@@ -4,3 +4,8 @@ class Bug {
     private Developer assignee;
 }
 
+type Config struct {
+    Debug bool   `json:"debug"`
+    Hope  string `json:"hope"`
+}
+
