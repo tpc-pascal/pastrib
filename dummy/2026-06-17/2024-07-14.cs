@@ -9,3 +9,5 @@ type Config struct {
     Hope  string `json:"hope"`
 }
 
+IO.puts("Elixir: functional, concurrent, bug cũng concurrent")
+
