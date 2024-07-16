@@ -4,3 +4,7 @@
 echo "Nó chạy mà?";
 ?>
 
+fun main() {
+    println("Kotlin: Java nhưng ngầu hơn")
+}
+
