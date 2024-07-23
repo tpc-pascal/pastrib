@@ -10,3 +10,7 @@ func Deploy() error {
     return fmt.Errorf("chưa kịp test")
 }
 
+fun main() {
+    println("Kotlin: Java nhưng ngầu hơn")
+}
+
