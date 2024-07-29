@@ -5,3 +5,8 @@
 level = DEBUG
 file = /dev/null  # không log gì cả
 
+# This lock file was auto-generated
+# (nó tự sinh ra, tự biến mất, tự xuất hiện lại)
+
+solution==0.0.1  # không có thật
+
