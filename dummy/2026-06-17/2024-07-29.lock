@@ -10,3 +10,7 @@ file = /dev/null  # không log gì cả
 
 solution==0.0.1  # không có thật
 
+# Không push .env lên git nhé
+# (thằng intern push rồi)
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
+
