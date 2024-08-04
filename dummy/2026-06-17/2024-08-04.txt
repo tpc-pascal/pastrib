@@ -1,0 +1,2 @@
+Git commit thường kèm "chắc chạy", "maybe fix", "test", "update"
+
