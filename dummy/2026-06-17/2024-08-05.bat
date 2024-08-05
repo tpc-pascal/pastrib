@@ -7,3 +7,5 @@ echo May tinh dang chay cham
 pause
 exit
 
+docker ps | grep my-app | awk '{print $1}' | xargs docker kill  # kill all
+
