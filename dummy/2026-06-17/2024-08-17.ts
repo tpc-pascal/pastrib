@@ -7,3 +7,10 @@ const enum DeployPhase {
     Rollback = "về thôi"
 }
 
+const enum DeployPhase {
+    Building = "đang build",
+    Testing = "quên test",
+    Deploying = "hồi hộp",
+    Rollback = "về thôi"
+}
+
