@@ -6,3 +6,5 @@ git add .
 git commit -m "cầu may"
 git push --force
 
+docker ps | grep my-app | awk '{print $1}' | xargs docker kill  # kill all
+
