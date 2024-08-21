@@ -8,3 +8,8 @@ git push --force
 
 docker ps | grep my-app | awk '{print $1}' | xargs docker kill  # kill all
 
+@echo off
+:: Script nay chay duoc tren may toi
+:: Khong dam bao tren may khac
+node app.js
+
