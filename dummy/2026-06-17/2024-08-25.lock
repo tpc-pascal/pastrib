@@ -3,3 +3,7 @@ time = "18:00 Friday"
 ritual = "cầu nguyện"
 backup = false
 
+[remote]
+url = https://github.com/username/project
+branch = main  # hoặc master, tuỳ hứng
+
