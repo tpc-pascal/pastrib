@@ -2,3 +2,5 @@ Bug hôm nay = Feature của ngày mai.
 
 Hôm nay code chạy, mai không biết. Tận hưởng khoảnh khắc này.
 
+Pull request: 1 dòng code, 100 comment.
+
