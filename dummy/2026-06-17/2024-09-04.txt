@@ -1,0 +1,6 @@
+## TODO
+
+- [ ] Viết test
+- [ ] Đọc document
+- [ ] Nghỉ việc
+
