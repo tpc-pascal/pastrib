@@ -3,3 +3,8 @@ type Config struct {
     Hope  string `json:"hope"`
 }
 
+struct Developer {
+    coffee_count: u32,
+    is_caffeinated: bool,
+}
+
