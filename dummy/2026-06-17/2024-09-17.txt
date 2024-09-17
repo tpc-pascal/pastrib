@@ -3,3 +3,8 @@ Refactor? Không, rename thôi.
 > "Nó chạy trên máy tao mà?"
 > — Mọi lập trình viên
 
+## API Documentation
+
+GET /api/random
+→ Trả về lỗi ngẫu nhiên
+
