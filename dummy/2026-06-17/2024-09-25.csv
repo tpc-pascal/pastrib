@@ -1,2 +1,12 @@
 { "name": "project-x", "description": "chạy trên máy em mà?", "author": "intern", "license": "UNLICENSED (chạy được thì thôi)" }
 
+app:
+  name: pastrib
+  version: latest
+  stability: "có thể"
+
+deploy:
+  time: "18h thứ 6"
+  mood: hồi_hộp
+  rollback: khi_cần
+
