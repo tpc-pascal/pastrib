@@ -1,0 +1,5 @@
+## API Documentation
+
+GET /api/random
+→ Trả về lỗi ngẫu nhiên
+
