@@ -4,3 +4,5 @@ database:
   username: root
   password: "123456"  # điển hình
 
+{ "config": { "debug": true, "strict": false, "hope": "always" } }
+
