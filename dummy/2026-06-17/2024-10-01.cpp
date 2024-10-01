@@ -4,3 +4,7 @@ class Bug {
     private Developer assignee;
 }
 
+fun main() {
+    println("Kotlin: Java nhưng ngầu hơn")
+}
+
