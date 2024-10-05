@@ -16,3 +16,9 @@ coffee = 5
 host = "localhost"
 port = 3306
 
+<?xml version="1.0"?>
+<config>
+  <strategy>hope_for_the_best</strategy>
+  <rollback>none</rollback>
+</config>
+
