@@ -1,0 +1,4 @@
+[dependencies]
+pastrib = { version = "*", source = "local" }
+hope = "1.0.0"
+
