@@ -8,3 +8,7 @@ function Fix-Everything {
 # tác giả: không rõ
 # lý do: thấy nó chạy
 
+Write-Host "Đang deploy..." -ForegroundColor Yellow
+npm run build
+if ($?) { Write-Host "Xong!" } else { Write-Host "Thôi chết" -ForegroundColor Red }
+
