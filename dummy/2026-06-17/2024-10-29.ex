@@ -7,3 +7,7 @@ class ViewController: UIViewController {
     }
 }
 
+fn main() {
+    println!("Nó compile được? Bất ngờ chưa!");
+}
+
