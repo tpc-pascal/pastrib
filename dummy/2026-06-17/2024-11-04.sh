@@ -4,3 +4,6 @@ if ($bug) { Get-Content $bug.FullName } else { Write-Host "Hôm nay không có b
 #!/bin/bash
 pip install -r requirements.txt  # hy vọng không conflict
 
+#!/bin/bash
+pip install -r requirements.txt  # hy vọng không conflict
+
