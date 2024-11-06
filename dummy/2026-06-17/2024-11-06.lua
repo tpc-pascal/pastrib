@@ -9,3 +9,8 @@ struct Developer {
     is_caffeinated: bool,
 }
 
+type Config struct {
+    Debug bool   `json:"debug"`
+    Hope  string `json:"hope"`
+}
+
