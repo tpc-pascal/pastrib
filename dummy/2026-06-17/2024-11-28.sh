@@ -2,3 +2,8 @@
 # (tôi cũng không biết)
 rm -rf /tmp/*
 
+@echo off
+echo May tinh dang chay cham
+pause
+exit
+
