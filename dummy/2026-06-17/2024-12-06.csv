@@ -7,3 +7,5 @@
   <debug>true</debug>
 </app>
 
+[ { "id": 1, "bug": "null reference" }, { "id": 2, "bug": "undefined is not a function" }, { "id": 3, "bug": "unknown" } ]
+
