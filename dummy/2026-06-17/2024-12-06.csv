@@ -1,2 +1,9 @@
 [ { "id": 1, "bug": "null reference" }, { "id": 2, "bug": "undefined is not a function" }, { "id": 3, "bug": "unknown" } ]
 
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <mode>production</mode>
+  <database>chạy_tới_chạy_lui</database>
+  <debug>true</debug>
+</app>
+
