@@ -5,3 +5,7 @@ echo "checking dependencies..."
 sleep 2
 echo "done (chắc thế)"
 
+# source: được copy từ Stack Overflow
+# tác giả: không rõ
+# lý do: thấy nó chạy
+
