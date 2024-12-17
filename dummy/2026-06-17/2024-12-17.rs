@@ -9,3 +9,7 @@ fn main() {
     println!("Nó compile được? Bất ngờ chưa!");
 }
 
+fun main() {
+    println("Kotlin: Java nhưng ngầu hơn")
+}
+
