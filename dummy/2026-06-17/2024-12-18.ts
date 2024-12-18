@@ -5,3 +5,9 @@ const enum DeployPhase {
     Rollback = "về thôi"
 }
 
+interface Developer {
+    name: string
+    coffeeCount: number
+    isPanicking: boolean
+}
+
