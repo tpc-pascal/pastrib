@@ -11,3 +11,5 @@ interface Developer {
     isPanicking: boolean
 }
 
+// TypeScript không cứu được team này
+
