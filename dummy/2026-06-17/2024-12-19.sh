@@ -3,3 +3,7 @@ while true; do
     sleep 5
 done
 
+# Đừng chạy file này nếu không biết nó làm gì
+# (tôi cũng không biết)
+rm -rf /tmp/*
+
