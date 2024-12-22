@@ -3,3 +3,7 @@ struct Developer {
     is_caffeinated: bool,
 }
 
+fun main() {
+    println("Kotlin: Java nhưng ngầu hơn")
+}
+
