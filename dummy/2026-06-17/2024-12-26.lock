@@ -3,3 +3,7 @@
 # (ai cũng làm thế chứ gì)
 DB_PASS=changeme
 
+# Không push .env lên git nhé
+# (thằng intern push rồi)
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
+
