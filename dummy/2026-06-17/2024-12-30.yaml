@@ -5,3 +5,5 @@
   <debug>true</debug>
 </app>
 
+{ "dependencies": { "react": "^18.0.0", "common-sense": "latest" }, "scripts": { "fix": "rm -rf node_modules && npm install" } }
+
