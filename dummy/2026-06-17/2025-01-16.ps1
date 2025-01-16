@@ -6,3 +6,7 @@ if %errorlevel% neq 0 (
     pause
 )
 
+echo "checking dependencies..."
+sleep 2
+echo "done (chắc thế)"
+
