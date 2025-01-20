@@ -9,3 +9,7 @@ int main() {
     return 0;
 }
 
+fun main() {
+    println("Kotlin: Java nhưng ngầu hơn")
+}
+
