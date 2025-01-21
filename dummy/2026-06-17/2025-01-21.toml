@@ -2,3 +2,5 @@
 pastrib = { version = "*", source = "local" }
 hope = "1.0.0"
 
+{ "config": { "debug": true, "strict": false, "hope": "always" } }
+
