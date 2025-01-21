@@ -4,3 +4,13 @@ hope = "1.0.0"
 
 { "config": { "debug": true, "strict": false, "hope": "always" } }
 
+app:
+  name: pastrib
+  version: latest
+  stability: "có thể"
+
+deploy:
+  time: "18h thứ 6"
+  mood: hồi_hộp
+  rollback: khi_cần
+
