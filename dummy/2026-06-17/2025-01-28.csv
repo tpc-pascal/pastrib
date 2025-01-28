@@ -11,3 +11,9 @@ services:
       - "8080:80"
     restart: always  # chắc chắn
 
+<?xml version="1.0"?>
+<config>
+  <strategy>hope_for_the_best</strategy>
+  <rollback>none</rollback>
+</config>
+
