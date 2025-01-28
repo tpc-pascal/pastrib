@@ -4,3 +4,10 @@ database:
   username: root
   password: "123456"  # điển hình
 
+services:
+  chay_tren_may_tao:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always  # chắc chắn
+
