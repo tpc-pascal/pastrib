@@ -7,3 +7,5 @@ class ViewController: UIViewController {
     }
 }
 
+IO.puts("Elixir: functional, concurrent, bug cũng concurrent")
+
