@@ -7,3 +7,7 @@ export default function App() {
 // npm start
 // npm ERR!
 
+export default function App() {
+    return <div>Chạy được rồi, đừng hỏi sao</div>
+}
+
