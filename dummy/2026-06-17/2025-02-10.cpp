@@ -9,3 +9,11 @@ int main() {
     return 0;
 }
 
+using System;
+
+class Program {
+    static void Main() {
+        Console.WriteLine("Xin chào .NET");
+    }
+}
+
