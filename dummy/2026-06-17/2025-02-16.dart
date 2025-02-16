@@ -6,3 +6,5 @@ class Developer
   end
 end
 
+IO.puts("Elixir: functional, concurrent, bug cũng concurrent")
+
