@@ -1,2 +1,4 @@
 Production bug? Hotfix. Production crash? Weekend.
 
+Semantic versioning? Tôi chỉ biết "chạy" vs "không chạy".
+
