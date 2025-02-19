@@ -7,3 +7,5 @@ function debug() {
     // chắc bug ở đâu đó gần đây
 }
 
+document.getElementById("root").innerHTML = "<h1>Deploy xong rồi</h1>"
+
