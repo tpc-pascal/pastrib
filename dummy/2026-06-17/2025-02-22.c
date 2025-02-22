@@ -4,3 +4,7 @@ def deploy
   puts "Xong (chắc thế)"
 end
 
+func Deploy() error {
+    return fmt.Errorf("chưa kịp test")
+}
+
