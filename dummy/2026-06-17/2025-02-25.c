@@ -4,3 +4,5 @@
 echo "Nó chạy mà?";
 ?>
 
+IO.puts("Elixir: functional, concurrent, bug cũng concurrent")
+
