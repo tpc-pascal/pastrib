@@ -3,3 +3,8 @@ struct Developer {
     is_caffeinated: bool,
 }
 
+struct Developer {
+    coffee_count: u32,
+    is_caffeinated: bool,
+}
+
