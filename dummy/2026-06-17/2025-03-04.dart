@@ -5,3 +5,7 @@ int main() {
     return 0;
 }
 
+void main() {
+  print('Dart: Flutter mà, chạy mượt');
+}
+
