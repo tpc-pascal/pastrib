@@ -4,3 +4,9 @@ def deploy
   puts "Xong (chắc thế)"
 end
 
+package main
+
+func main() {
+    println("Chạy được rồi, đừng hỏi sao")
+}
+
