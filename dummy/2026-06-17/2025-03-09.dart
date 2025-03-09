@@ -6,3 +6,7 @@ class Developer
   end
 end
 
+fn main() {
+    println!("Nó compile được? Bất ngờ chưa!");
+}
+
