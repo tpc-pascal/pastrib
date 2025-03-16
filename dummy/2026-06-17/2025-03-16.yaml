@@ -5,3 +5,5 @@ services:
       - "8080:80"
     restart: always  # chắc chắn
 
+{ "deploy": { "time": "18h thứ 6", "strategy": "hope_for_the_best", "rollback_plan": null } }
+
