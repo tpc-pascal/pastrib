@@ -3,3 +3,10 @@ name = "magic-fix"
 description = "sửa bug không cần biết bug gì"
 safe = false
 
+ci:
+  test:
+    - run: npm test
+    - run: echo "qua hết test"
+  deploy:
+    - run: git push --force
+
