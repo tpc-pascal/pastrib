@@ -5,3 +5,5 @@ function debug() {
     // chắc bug ở đâu đó gần đây
 }
 
+var x = "không biết var hay const"  // thằng intern viết
+
