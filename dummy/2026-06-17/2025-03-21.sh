@@ -8,3 +8,7 @@ set -e  # fail nhanh, fail gọn
 echo "building..."
 npm run build 2>/dev/null || echo "thôi kệ"
 
+# Đừng chạy file này nếu không biết nó làm gì
+# (tôi cũng không biết)
+rm -rf /tmp/*
+
