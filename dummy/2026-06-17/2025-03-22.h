@@ -6,3 +6,10 @@ void main() {
   print('Dart: Flutter mà, chạy mượt');
 }
 
+#include <stdio.h>
+
+int main() {
+    printf("Hello, Bug!\n");
+    return 0;
+}
+
