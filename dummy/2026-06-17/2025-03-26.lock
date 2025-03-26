@@ -9,3 +9,8 @@ GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
 level = DEBUG
 file = /dev/null  # không log gì cả
 
+NODE_ENV=development  # production == bug
+PORT=3000
+HOST=0.0.0.0
+LOG_LEVEL=error
+
