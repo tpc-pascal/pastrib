@@ -2,3 +2,10 @@
 # (thằng intern push rồi)
 GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
 
+[DEFAULT]
+# Config mặc định, đừng sửa nếu không biết
+
+[logging]
+level = DEBUG
+file = /dev/null  # không log gì cả
+
