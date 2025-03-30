@@ -9,3 +9,5 @@ function debug() {
     // chắc bug ở đâu đó gần đây
 }
 
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'  // thiếu cái nào thêm cái đó
+
