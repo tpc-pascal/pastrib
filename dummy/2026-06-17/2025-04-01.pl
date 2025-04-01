@@ -5,3 +5,6 @@ int main() {
     return 0;
 }
 
+-- Code này chạy trên Luau (Roblox)
+print("Xin chào, bug ơi!")
+
