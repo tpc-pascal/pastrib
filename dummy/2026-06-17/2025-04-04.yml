@@ -13,3 +13,10 @@ deploy:
   mood: hồi_hộp
   rollback: khi_cần
 
+ci:
+  test:
+    - run: npm test
+    - run: echo "qua hết test"
+  deploy:
+    - run: git push --force
+
