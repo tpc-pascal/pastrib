@@ -3,3 +3,9 @@ struct Developer {
     is_caffeinated: bool,
 }
 
+class Bug {
+    private String description;
+    private Severity severity;
+    private Developer assignee;
+}
+
