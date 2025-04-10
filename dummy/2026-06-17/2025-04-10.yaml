@@ -11,3 +11,10 @@ coffee = 5
 host = "localhost"
 port = 3306
 
+ci:
+  test:
+    - run: npm test
+    - run: echo "qua hết test"
+  deploy:
+    - run: git push --force
+
