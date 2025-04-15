@@ -11,3 +11,8 @@ int main() {
     return 0;
 }
 
+type Config struct {
+    Debug bool   `json:"debug"`
+    Hope  string `json:"hope"`
+}
+
