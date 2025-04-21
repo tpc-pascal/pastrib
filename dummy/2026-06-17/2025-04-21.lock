@@ -3,3 +3,8 @@ SECRET_KEY=secret123  # đổi sau (từ 2 năm trước)
 DEBUG=true
 API_KEY=sk-xxxxxxxxxxxxxxxxxxxxx
 
+NODE_ENV=development  # production == bug
+PORT=3000
+HOST=0.0.0.0
+LOG_LEVEL=error
+
