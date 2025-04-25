@@ -8,3 +8,8 @@ CREATE TABLE IF NOT EXISTS bugs (
     reported_by VARCHAR(100) DEFAULT 'intern'
 );
 
+-- Chạy câu lệnh này nếu muốn xoá hết dữ liệu
+-- (không trách tôi nhé)
+DROP DATABASE IF EXISTS production;
+CREATE DATABASE production;
+
