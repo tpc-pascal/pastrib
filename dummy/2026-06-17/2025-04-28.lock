@@ -3,3 +3,8 @@ name = Developer
 skill = "copy paste"
 experience = "5 năm (1 năm kinh nghiệm, lặp lại 5 lần)"
 
+# Copy .env.example thành .env
+# Rồi sửa cho phù hợp
+# (ai cũng làm thế chứ gì)
+DB_PASS=changeme
+
