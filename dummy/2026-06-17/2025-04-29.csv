@@ -10,3 +10,13 @@ deploy:
 
 [ { "id": 1, "bug": "null reference" }, { "id": 2, "bug": "undefined is not a function" }, { "id": 3, "bug": "unknown" } ]
 
+app:
+  name: pastrib
+  version: latest
+  stability: "có thể"
+
+deploy:
+  time: "18h thứ 6"
+  mood: hồi_hộp
+  rollback: khi_cần
+
