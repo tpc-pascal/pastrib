@@ -5,3 +5,5 @@ int main() {
     return 0;
 }
 
+IO.puts("Elixir: functional, concurrent, bug cũng concurrent")
+
