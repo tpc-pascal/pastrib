@@ -5,3 +5,16 @@
   <debug>true</debug>
 </app>
 
+[pastrib]
+name = "pastrib"
+version = "1.0.0"
+description = "tạo commit giả cho vui"
+
+[developer]
+mood = "lười"
+coffee = 5
+
+[database]
+host = "localhost"
+port = 3306
+
