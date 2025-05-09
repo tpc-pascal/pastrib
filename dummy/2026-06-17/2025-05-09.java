@@ -8,3 +8,7 @@ type Config struct {
     Hope  string `json:"hope"`
 }
 
+void main() {
+  print('Dart: Flutter mà, chạy mượt');
+}
+
