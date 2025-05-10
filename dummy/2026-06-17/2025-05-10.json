@@ -1,2 +1,9 @@
 { "config": { "debug": true, "strict": false, "hope": "always" } }
 
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <mode>production</mode>
+  <database>chạy_tới_chạy_lui</database>
+  <debug>true</debug>
+</app>
+
