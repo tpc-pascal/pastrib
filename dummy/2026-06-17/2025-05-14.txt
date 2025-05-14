@@ -1,0 +1,8 @@
+## FAQ
+
+**Q: Code không chạy?**
+A: Thử `rm -rf node_modules && npm install`.
+
+**Q: Vẫn không chạy?**
+A: Restart máy.
+
