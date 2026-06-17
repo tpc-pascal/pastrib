@@ -1,0 +1,12 @@
+id,name,status,hours_slept
+1,"Developer A",online,2
+2,"Developer B",panic,0
+3,"Intern",crying,4
+
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <mode>production</mode>
+  <database>chạy_tới_chạy_lui</database>
+  <debug>true</debug>
+</app>
+

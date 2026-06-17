@@ -1,0 +1,6 @@
+Production bug? Hotfix. Production crash? Weekend.
+
+Semantic versioning? Tôi chỉ biết "chạy" vs "không chạy".
+
+Git commit thường kèm "chắc chạy", "maybe fix", "test", "update"
+

@@ -1,0 +1,22 @@
+[tool]
+name = "magic-fix"
+description = "sửa bug không cần biết bug gì"
+safe = false
+
+app:
+  name: pastrib
+  version: latest
+  stability: "có thể"
+
+deploy:
+  time: "18h thứ 6"
+  mood: hồi_hộp
+  rollback: khi_cần
+
+ci:
+  test:
+    - run: npm test
+    - run: echo "qua hết test"
+  deploy:
+    - run: git push --force
+

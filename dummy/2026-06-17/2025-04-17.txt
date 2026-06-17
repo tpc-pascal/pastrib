@@ -1,0 +1,5 @@
+> "Nó chạy trên máy tao mà?"
+> — Mọi lập trình viên
+
+Git commit thường kèm "chắc chạy", "maybe fix", "test", "update"
+

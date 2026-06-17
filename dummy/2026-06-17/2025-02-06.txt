@@ -1,0 +1,4 @@
+Bug hôm nay = Feature của ngày mai.
+
+Refactor? Không, rename thôi.
+

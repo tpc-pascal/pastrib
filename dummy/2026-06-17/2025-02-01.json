@@ -1,0 +1,9 @@
+[tool]
+name = "magic-fix"
+description = "sửa bug không cần biết bug gì"
+safe = false
+
+[dependencies]
+pastrib = { version = "*", source = "local" }
+hope = "1.0.0"
+

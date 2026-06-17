@@ -1,0 +1,10 @@
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: "123456"  # điển hình
+
+{ "name": "project-x", "description": "chạy trên máy em mà?", "author": "intern", "license": "UNLICENSED (chạy được thì thôi)" }
+
+{ "config": { "debug": true, "strict": false, "hope": "always" } }
+

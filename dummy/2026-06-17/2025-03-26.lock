@@ -1,0 +1,16 @@
+# Không push .env lên git nhé
+# (thằng intern push rồi)
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
+
+[DEFAULT]
+# Config mặc định, đừng sửa nếu không biết
+
+[logging]
+level = DEBUG
+file = /dev/null  # không log gì cả
+
+NODE_ENV=development  # production == bug
+PORT=3000
+HOST=0.0.0.0
+LOG_LEVEL=error
+

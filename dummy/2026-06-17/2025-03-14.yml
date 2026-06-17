@@ -1,0 +1,10 @@
+[ { "id": 1, "bug": "null reference" }, { "id": 2, "bug": "undefined is not a function" }, { "id": 3, "bug": "unknown" } ]
+
+{ "deploy": { "time": "18h thứ 6", "strategy": "hope_for_the_best", "rollback_plan": null } }
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: "123456"  # điển hình
+

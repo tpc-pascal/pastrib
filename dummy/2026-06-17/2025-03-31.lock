@@ -1,0 +1,9 @@
+[deploy]
+time = "18:00 Friday"
+ritual = "cầu nguyện"
+backup = false
+
+# Không push .env lên git nhé
+# (thằng intern push rồi)
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
+

@@ -1,0 +1,7 @@
+.magic-fix {
+    display: none; /* khi không biết sửa thì ẩn nó đi */
+}
+
+<!-- cái này copy từ Stack Overflow -->
+<div class="magic-spacer"><!-- xóa là hỏng -->&nbsp;</div>
+

@@ -1,0 +1,11 @@
+{ "config": { "debug": true, "strict": false, "hope": "always" } }
+
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <mode>production</mode>
+  <database>chạy_tới_chạy_lui</database>
+  <debug>true</debug>
+</app>
+
+{ "name": "project-x", "description": "chạy trên máy em mà?", "author": "intern", "license": "UNLICENSED (chạy được thì thôi)" }
+
