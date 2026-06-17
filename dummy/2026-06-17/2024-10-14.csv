@@ -1,0 +1,8 @@
+[dependencies]
+pastrib = { version = "*", source = "local" }
+hope = "1.0.0"
+
+{ "name": "project-x", "description": "chạy trên máy em mà?", "author": "intern", "license": "UNLICENSED (chạy được thì thôi)" }
+
+{ "deploy": { "time": "18h thứ 6", "strategy": "hope_for_the_best", "rollback_plan": null } }
+

@@ -1,0 +1,7 @@
+Git commit thường kèm "chắc chạy", "maybe fix", "test", "update"
+
+## API Documentation
+
+GET /api/random
+→ Trả về lỗi ngẫu nhiên
+

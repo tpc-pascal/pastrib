@@ -1,0 +1,9 @@
+ci:
+  test:
+    - run: npm test
+    - run: echo "qua hết test"
+  deploy:
+    - run: git push --force
+
+{ "config": { "debug": true, "strict": false, "hope": "always" } }
+

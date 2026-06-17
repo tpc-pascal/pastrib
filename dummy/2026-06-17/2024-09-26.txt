@@ -1,0 +1,7 @@
+## API Documentation
+
+GET /api/random
+→ Trả về lỗi ngẫu nhiên
+
+npm install: tải 1500 packages để in "Hello World"
+

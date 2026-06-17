@@ -1,0 +1,20 @@
+services:
+  chay_tren_may_tao:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always  # chắc chắn
+
+[pastrib]
+name = "pastrib"
+version = "1.0.0"
+description = "tạo commit giả cho vui"
+
+[developer]
+mood = "lười"
+coffee = 5
+
+[database]
+host = "localhost"
+port = 3306
+

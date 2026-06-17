@@ -1,0 +1,15 @@
+{ "name": "project-x", "description": "chạy trên máy em mà?", "author": "intern", "license": "UNLICENSED (chạy được thì thôi)" }
+
+ci:
+  test:
+    - run: npm test
+    - run: echo "qua hết test"
+  deploy:
+    - run: git push --force
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: "123456"  # điển hình
+

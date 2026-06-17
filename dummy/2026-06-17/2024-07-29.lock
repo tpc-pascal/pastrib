@@ -1,0 +1,16 @@
+[DEFAULT]
+# Config mặc định, đừng sửa nếu không biết
+
+[logging]
+level = DEBUG
+file = /dev/null  # không log gì cả
+
+# This lock file was auto-generated
+# (nó tự sinh ra, tự biến mất, tự xuất hiện lại)
+
+solution==0.0.1  # không có thật
+
+# Không push .env lên git nhé
+# (thằng intern push rồi)
+GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxx
+

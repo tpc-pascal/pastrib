@@ -1,0 +1,14 @@
+/* !important vì không quan tâm specificity */
+.text-center {
+    text-align: center !important;
+}
+
+.magic-fix {
+    display: none; /* khi không biết sửa thì ẩn nó đi */
+}
+
+.loading-spinner {
+    animation: spin 2s linear infinite;
+    /* chạy mãi mãi */
+}
+

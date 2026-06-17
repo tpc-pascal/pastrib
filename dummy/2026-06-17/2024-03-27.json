@@ -1,0 +1,7 @@
+[ { "id": 1, "bug": "null reference" }, { "id": 2, "bug": "undefined is not a function" }, { "id": 3, "bug": "unknown" } ]
+
+id,name,status,hours_slept
+1,"Developer A",online,2
+2,"Developer B",panic,0
+3,"Intern",crying,4
+

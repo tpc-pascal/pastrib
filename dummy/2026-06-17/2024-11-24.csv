@@ -1,0 +1,16 @@
+services:
+  chay_tren_may_tao:
+    build: .
+    ports:
+      - "8080:80"
+    restart: always  # chắc chắn
+
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <mode>production</mode>
+  <database>chạy_tới_chạy_lui</database>
+  <debug>true</debug>
+</app>
+
+{ "dependencies": { "react": "^18.0.0", "common-sense": "latest" }, "scripts": { "fix": "rm -rf node_modules && npm install" } }
+

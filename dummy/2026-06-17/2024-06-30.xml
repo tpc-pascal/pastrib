@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config>
+  <strategy>hope_for_the_best</strategy>
+  <rollback>none</rollback>
+</config>
+
+{ "config": { "debug": true, "strict": false, "hope": "always" } }
+

@@ -1,0 +1,23 @@
+[pastrib]
+name = "pastrib"
+version = "1.0.0"
+description = "tạo commit giả cho vui"
+
+[developer]
+mood = "lười"
+coffee = 5
+
+[database]
+host = "localhost"
+port = 3306
+
+app:
+  name: pastrib
+  version: latest
+  stability: "có thể"
+
+deploy:
+  time: "18h thứ 6"
+  mood: hồi_hộp
+  rollback: khi_cần
+
