@@ -1,0 +1,81 @@
+name: Rewrite Git History
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Mode
+        required: true
+        type: choice
+        options:
+          - spread
+          - specific
+      branch:
+        description: Branch to rewrite
+        required: false
+        default: main
+      # specific mode inputs
+      commit_hash:
+        description: Commit hash (specific mode only)
+        required: false
+        default: ""
+      new_date:
+        description: New date (specific mode) — YYYY-MM-DD HH:MM:SS
+        required: false
+        default: ""
+      # spread mode inputs
+      start_date:
+        description: Start date (spread mode) — YYYY-MM-DD
+        required: false
+        default: "2024-01-01"
+      end_date:
+        description: End date (spread mode) — YYYY-MM-DD
+        required: false
+        default: "2024-12-31"
+
+jobs:
+  rewrite:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.inputs.branch }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run date modifier
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          if [[ "${{ github.event.inputs.mode }}" == "specific" ]]; then
+            python git_date_specific.py \
+              --repo-path . \
+              --commit-hash "${{ github.event.inputs.commit_hash }}" \
+              --new-date "${{ github.event.inputs.new_date }}" \
+              --yes
+          else
+            python git_date_spread.py \
+              --start-date "${{ github.event.inputs.start_date }}" \
+              --end-date "${{ github.event.inputs.end_date }}" \
+              --run-date "$(date +%Y-%m-%d)" \
+              --yes
+          fi
+
+      - name: Show run log
+        run: |
+          if [ -f "log.txt" ]; then
+            echo "=== Workflow run log ==="
+            tail -n 10 log.txt
+          else
+            echo "(log.txt not found — dry run or no changes made?)"
+          fi
+
+      - name: Force push rewritten history
+        run: |
+          git remote set-url origin \
+            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin ${{ github.event.inputs.branch }} --force
