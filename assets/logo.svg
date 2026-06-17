@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="git" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f05033"/>
+      <stop offset="100%" style="stop-color:#ce3a2a"/>
+    </linearGradient>
+    <linearGradient id="grid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="60" fill="url(#bg)"/>
+  <g transform="translate(200,160)">
+    <path d="M-80,-40 L80,-40 L80,40 L-80,40 Z" rx="12" fill="none" stroke="url(#git)" stroke-width="6"/>
+    <path d="M-30,-40 L-30,40" stroke="url(#git)" stroke-width="4"/>
+    <path d="M30,-40 L30,40" stroke="url(#git)" stroke-width="4"/>
+    <path d="M-80,-10 L80,-10" stroke="url(#git)" stroke-width="4"/>
+    <path d="M-80,10 L80,10" stroke="url(#git)" stroke-width="4"/>
+    <circle cx="-30" cy="-25" r="8" fill="url(#grid)"/>
+    <circle cx="30" cy="-25" r="8" fill="url(#grid)"/>
+    <circle cx="-30" cy="25" r="8" fill="url(#grid)"/>
+    <circle cx="30" cy="25" r="8" fill="url(#grid)"/>
+    <circle cx="-30" cy="-25" r="4" fill="#fff" opacity="0.7"/>
+    <circle cx="30" cy="-25" r="4" fill="#fff" opacity="0.7"/>
+    <circle cx="-30" cy="25" r="4" fill="#fff" opacity="0.7"/>
+    <circle cx="30" cy="25" r="4" fill="#fff" opacity="0.7"/>
+    <circle cx="-30" cy="-25" r="3" fill="#fff" opacity="0.3"/>
+    <circle cx="30" cy="-25" r="3" fill="#fff" opacity="0.3"/>
+    <circle cx="-30" cy="25" r="3" fill="#fff" opacity="0.3"/>
+    <circle cx="30" cy="25" r="3" fill="#fff" opacity="0.3"/>
+  </g>
+  <g transform="translate(200,280)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#e2e8f0" letter-spacing="4">Pastrib</text>
+    <text x="0" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="2">GIT DATE MODIFIER</text>
+  </g>
+  <g transform="translate(200,100)">
+    <circle cx="-50" cy="0" r="16" fill="none" stroke="url(#grid)" stroke-width="3" opacity="0.6"/>
+    <circle cx="-18" cy="0" r="16" fill="none" stroke="url(#grid)" stroke-width="3" opacity="0.8"/>
+    <circle cx="14" cy="0" r="16" fill="none" stroke="url(#grid)" stroke-width="3" opacity="0.9"/>
+    <circle cx="46" cy="0" r="16" fill="#4ade80" opacity="0.6"/>
+    <line x1="-50" y1="0" x2="46" y2="0" stroke="url(#grid)" stroke-width="2" opacity="0.4"/>
+  </g>
+</svg>
