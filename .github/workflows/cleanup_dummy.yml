@@ -1,0 +1,63 @@
+name: Cleanup Dummy Folder
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Hành động
+        required: true
+        type: choice
+        options:
+          - delete
+          - list
+      folder_name:
+        description: "Tên folder trong dummy/ (chỉ dùng khi action = delete)"
+        required: false
+        default: ""
+      branch:
+        description: Branch
+        required: false
+        default: main
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.branch }}
+
+      - name: Liệt kê folder hiện có trong dummy/
+        run: |
+          echo "=== Các folder trong dummy/ ==="
+          if [ -d "dummy" ]; then
+            for d in dummy/*/; do
+              echo ""
+              echo "$d (files: $(ls "$d" | head -c 200))..."
+            done
+          else
+            echo "(chưa có folder nào)"
+          fi
+
+      - name: Kiểm tra folder tồn tại
+        if: ${{ github.event.inputs.action == 'delete' }}
+        run: |
+          FOLDER="dummy/${{ github.event.inputs.folder_name }}"
+          if [ ! -d "$FOLDER" ]; then
+            echo "Lỗi: '$FOLDER' không tồn tại!" >&2
+            exit 1
+          fi
+          echo "Đã tìm thấy: $FOLDER"
+
+      - name: Xoá folder
+        if: ${{ github.event.inputs.action == 'delete' }}
+        run: git rm -r "dummy/${{ github.event.inputs.folder_name }}"
+
+      - name: Commit và push
+        if: ${{ github.event.inputs.action == 'delete' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: xóa dummy folder ${{ github.event.inputs.folder_name }}"
+          git push
